@@ -1,0 +1,8 @@
+{
+  "raw_glob": "data/raw/sales_*.csv",
+  "processed_dir": "data/processed",
+  "warehouse_path": "warehouse/warehouse.db",
+  "table_name": "fact_sales",
+  "primary_key": "order_id",
+  "datetime_format": "%Y-%m-%d %H:%M:%S"
+}
